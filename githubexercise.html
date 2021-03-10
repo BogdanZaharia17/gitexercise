@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+        }
+
+        .first-pilon {
+            background-color: red;
+            flex-grow: 0.2;
+        }
+
+        .second-pilon {
+            background-color: blue;
+            flex-grow: 0.2;
+        }
+
+    </style>
+
 </head>
 <body>
-    
+    <div class="container">
+        <div class="first-pilon"></div>
+        <div class="second-pilon"></div>
+    </div>
 </body>
 </html>
